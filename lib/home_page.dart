@@ -15,8 +15,8 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: ResponsiveLayout(
-        mobileBody: const MyMobileBody(),
-        desktopBody: const MyDesktopBody(),
+        mobileBody: MyMobileBody(),
+        desktopBody: MyDesktopBody(),
       ),
     );
   }
